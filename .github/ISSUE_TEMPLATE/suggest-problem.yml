@@ -1,12 +1,28 @@
 name: Suggest a System Design Problem
-description: Propose a new system to design
-labels: ["suggestion"]
+description: Got a cool system idea? Drop it here and let’s design it! 🚀
+labels: ["suggestion", "design-challenge"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Welcome to the **System Design Sandbox**! 🌟 Share your idea for a system to design, like a chat app or a global streaming service. Your suggestion could inspire the next big design!
+  - type: dropdown
+    id: problem-type
+    attributes:
+      label: Problem Type
+      description: What kind of challenge is this?
+      options:
+        - Beginner 🌱
+        - Intermediate 🛠️
+        - Advanced 🔮
+      default: 0
+    validations:
+      required: false
   - type: textarea
     id: problem
     attributes:
       label: System Design Problem
-      description: Describe the system you'd like to see designed.
-      placeholder: "Example - Design a scalable chat application"
+      description: Tell us about the system you want to see designed.
+      placeholder: Example - Design a super-fast notification system for millions of users!
     validations:
       required: true
