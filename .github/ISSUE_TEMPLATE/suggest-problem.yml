@@ -1,9 +1,28 @@
 name: Suggest a System Design Problem
-description: Propose a new system to design
-labels: ["problem-suggestion"]
+description: Got a cool system idea? Drop it here and let’s design it! 🚀
+labels: ["suggestion", "design-challenge"]
 body:
-
-    type: textarea id: problem-description attributes: label: Problem Description description: Describe the system (e.g., "Design a ride-sharing app"). placeholder: "Example: Design a scalable ride-sharing service like Uber." validations: required: true
-    type: textarea id: requirements attributes: label: Requirements description: List functional or non-functional needs (optional). placeholder: |
-        Functional: Book rides, track drivers.
-        Non-functional: Handle 10K rides/hour, 99.99% uptime. validations: required: false '@ -Encoding UTF8
+  - type: markdown
+    attributes:
+      value: |
+        Welcome to the **System Design Sandbox**! 🌟 Share your idea for a system to design, like a chat app or a global streaming service. Your suggestion could inspire the next big design!
+  - type: dropdown
+    id: problem-type
+    attributes:
+      label: Problem Type
+      description: What kind of challenge is this?
+      options:
+        - Beginner 🌱
+        - Intermediate 🛠️
+        - Advanced 🔮
+      default: 0
+    validations:
+      required: false
+  - type: textarea
+    id: problem
+    attributes:
+      label: System Design Problem
+      description: Tell us about the system you want to see designed.
+      placeholder: Example - Design a super-fast notification system for millions of users!
+    validations:
+      required: true
