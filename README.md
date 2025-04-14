@@ -36,10 +36,11 @@ As a senior engineer, I’m passionate about breaking down complex systems into 
 
 ## Sneak Peek
 Here’s a glimpse of the URL Shortener v1 architecture:
-![URL Shortener Diagram](problems/url-shortener/diagrams/v1.png)
+
+<img src="problems/url-shortener/diagrams/v1.png" alt="URL Shortener Diagram" width="300">
 
 _Built by [Sivabalan B](https://github.com/sivabalanb) to learn, teach, and inspire scalable system design._
 
 ---
 
-**Let’s design the future together!** 🚀 Join the conversation on [X](https://x.com/yourhandle) with #SystemDesignSandbox.
+**Let’s design the future together!** 🚀 with #SystemDesignSandbox.
