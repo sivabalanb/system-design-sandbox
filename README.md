@@ -1,4 +1,8 @@
 # System Design Sandbox: Learn & Build Scalable Architectures 🌐
+
+![GitHub stars](https://img.shields.io/github/stars/sivabalanb/system-design-sandbox)
+![GitHub forks](https://img.shields.io/github/forks/sivabalanb/system-design-sandbox)
+
 Welcome to my **System Design Sandbox**—a living workbook where I design, refine, and document real-world system design problems to master high-level design (HLD). This repo is both my learning journey and an open-source resource for anyone looking to dive into system design.
 
 ## Why This Exists
