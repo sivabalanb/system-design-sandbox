@@ -6,7 +6,7 @@ body:
     id: problem
     attributes:
       label: System Design Problem
-      description: Describe the system you'd like to see designed
-      placeholder: Example: Design a scalable chat application
+      description: Describe the system you'd like to see designed.
+      placeholder: "Example - Design a scalable chat application"
     validations:
       required: true
